@@ -1,0 +1,27 @@
+/* debugging area */
+/* .body {
+    border: 3px solid salmon;
+}
+
+.content-one{
+    border: 3px solid salmon; 
+}
+
+.box-one {
+    border: 3px solid salmon;
+}
+
+.box-two{
+    border: 3px solid salmon;
+}
+
+.content-two {
+    border: 3px solid green;    
+} */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
