@@ -1,7 +1,72 @@
-/* debugging area */
-/* .body {
-    border: 3px solid salmon;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'sans-serif';
+}
+
+.header,
+.footer {
+ display: flex;
+
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 300px;
+    margin: 0;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.left-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#e5e7eb;
+    font-weight: lighter;
+}
+
+/*  */
+
+.content-one {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+     background-color: #1F2937;
+
+}
+
+.main-text {
+
+}
+
+.subtext{
+   color: #e5e7eb; 
+}
+
+/* ---------------------------------------------------------------- */
+
+/* debugging area */
 
 .content-one{
     border: 3px solid salmon; 
@@ -15,13 +80,13 @@
     border: 3px solid salmon;
 }
 
-.content-two {
+/*.content-two {
     border: 3px solid green;    
-} */
-
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+}
+.content-three {
+    border: 3px solid red;    
 }
 
+.content-four {
+    border: 3px solid orange;    
+} */
