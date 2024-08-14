@@ -243,6 +243,18 @@ img {
     font-size: 16px;
 }
 
+/* footer */
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+    color: #E5E7EB;
+    font: 18px;
+    padding: 50px;
+}
+
+
 /* ---------------------------------------------------------------- */
 
 /* debugging area */
