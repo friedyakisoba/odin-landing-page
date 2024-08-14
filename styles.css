@@ -126,22 +126,28 @@ a {
     margin-top: 32px ;
     margin-bottom: 32px;
 
-    font-size: 36;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 
 
 }
 
-.container {
+.container-two {
     display: flex;
     flex-direction: row;
-    gap: 18px;
-    
+    width: 100%;
+    gap: 100px;
+    justify-content: center;
+    border: 1px solid red;  
+
+    margin-bottom: 75px;
 }
 
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .info {
@@ -151,7 +157,12 @@ img {
     flex-direction: column;
     border: 1px solid salmon;
     max-width: 200px;
+    text-align: center;
 }
+
+
+/* quote sections */
+
 
 
 
