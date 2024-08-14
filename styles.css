@@ -163,7 +163,34 @@ img {
 
 /* quote sections */
 
+.content-three {
+    display: flex;
+    max-width: 100%;
+    padding: 100px 200PX;
+    justify-content: center;
+    align-items: center;
 
+    font-size: 36px;
+
+    background-color:#E5E7EB;
+    color: #1F2937;
+}
+
+.text-quote {
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    gap:5px;
+}
+
+.name {
+    font-size: 18px;
+    display: flex;
+    margin: auto 10px auto auto ;
+   
+}
 
 
 /* ---------------------------------------------------------------- */
