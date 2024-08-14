@@ -74,19 +74,11 @@ a {
     gap: 8px;
 }
 
-.right-box {
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    /* border: 2px solid salmon; */
-    height: 300px;
-    width: 300px;
-}
-
-.image-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#gundam{
+    height: 400px;
+    width: 500px;
+    object-fit: contain;
+    
 }
 
 .main-text {
@@ -139,27 +131,24 @@ a {
     width: 100%;
     gap: 100px;
     justify-content: center;
-
     /* border: 1px solid red;   */
-
     margin-bottom: 75px;
+    flex-wrap: wrap;
 }
 
 
 img {
     width: 200px;
     height: 200px;
+    object-fit: contain;
 }
 
 .info {
     display: flex;
-
     align-items: center;
     flex-direction: column;
-
     /* border: 1px solid salmon; */
     max-width: 200px;
-
     text-align: center;
 }
 
@@ -172,9 +161,7 @@ img {
     padding: 100px 200PX;
     justify-content: center;
     align-items: center;
-
     font-size: 36px;
-
     background-color:#E5E7EB;
     color: #1F2937;
 }
@@ -201,7 +188,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 300px;
+    padding: 80px 300px;
 }
 
 .container-three {
@@ -212,6 +199,8 @@ img {
     border-radius: 5px;
     justify-content: space-around;
     align-items: center;
+
+    flex-wrap: wrap;
 
 }
 
@@ -251,7 +240,7 @@ img {
     background-color:#1F2937;
     color: #E5E7EB;
     font: 18px;
-    padding: 50px;
+    padding: 25px;
 }
 
 
